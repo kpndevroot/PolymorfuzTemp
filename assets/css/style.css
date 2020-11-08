@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #5846f9;
+  background: linear-gradient(45deg, rgba(58, 116, 250, 0.9) 0%, rgba(15, 51, 214, 0.9) 100%), url("../img/web-bg.jpg") center center no-repeat;
   color: #fff;
   transition: all 0.4s;
 }
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 90px;
 }
 
 @media (max-width: 992px) {
@@ -420,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(58, 116, 250, 0.9) 0%, rgba(15, 51, 214, 0.9) 100%), url("../img/web-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -611,7 +611,7 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+  background:linear-gradient(45deg, rgba(58, 116, 250, 0.9) 0%, rgba(15, 51, 214, 0.9) 100%), url("../img/web-bg.jpg") center center no-repeat;
   position: relative;
 }
 
@@ -772,7 +772,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5846f9;
+  color: #1114c3;
 }
 
 .features .icon-box p {
@@ -821,7 +821,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #5846f9;
+  background: #2a1abe;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -837,7 +837,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(88, 70, 249, 0.8);
+  background: rgba(51, 32, 218, 0.678);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1021,7 +1021,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #5846f9;
+  background: #2a1abe;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1188,7 +1188,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(58, 116, 250, 0.9) 0%, rgba(15, 51, 214, 0.9) 100%), url("../img/web-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
